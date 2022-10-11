@@ -1,0 +1,25 @@
+.flex-grid {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: stretch;
+   margin: 0 4rem;
+}
+
+.portfolio-item {
+   display: flex;
+   text-align: center;
+   // height: 200px;
+   transition: all 2s;
+   margin: 10px;
+   box-sizing: border-box;
+   align-items: center;
+   flex-grow: 1;
+   min-width: 400px;
+}
+
+.portfolio-item .portfolio-text {
+   margin: 0 auto;
+   width: 100%;
+   letter-spacing: 1px;
+}

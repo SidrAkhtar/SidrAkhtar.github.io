@@ -1,0 +1,29 @@
+{
+  "name": "sidrakhtar.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidrAkhtar/SidrAkhtar.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidrAkhtar/SidrAkhtar.github.io/issues"
+  },
+  "homepage": "https://github.com/SidrAkhtar/SidrAkhtar.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0"
+  }
+}
